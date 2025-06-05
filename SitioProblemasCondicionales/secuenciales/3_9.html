@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Problema 3.9 - Póliza de seguro</title>
+  <link rel="stylesheet" href="../styles/estilo.css" />
+  <script defer src="../scripts/problemas.js"></script>
+</head>
+<body>
+  <h1>Problema 3.9 - Cálculo de póliza de seguro</h1>
+
+  <label for="tipoPoliza">Tipo de póliza:</label>
+  <select id="tipoPoliza">
+    <option value="A">Cobertura amplia (A)</option>
+    <option value="B">Daños a terceros (B)</option>
+  </select><br><br>
+
+  <label><input type="checkbox" id="alcohol"> ¿Bebe alcohol?</label><br>
+  <label><input type="checkbox" id="lentes"> ¿Usa lentes?</label><br>
+  <label><input type="checkbox" id="enfermedad"> ¿Tiene alguna enfermedad?</label><br>
+  <label for="edad">Edad:</label>
+  <input type="number" id="edad" min="0"><br><br>
+
+  <button onclick="resolverProblema39()">Calcular costo</button>
+
+  <p id="resultado39"></p>
+</body>
+</html>
